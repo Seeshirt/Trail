@@ -1,0 +1,408 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.container{
+  
+    width: 1460px;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+
+ul {
+    padding: 0px;
+    margin-right: 10px;
+}
+.top-header {
+    
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    background-color: rgb(225, 223, 223);
+    margin: 0px;
+    padding: 0px 10px; 
+    background-size: 50%;
+}
+
+
+.Logo img {
+    width: 150px; 
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(17, 17, 17);
+}
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(9, 8, 8); 
+}
+
+.menu a:hover {
+    color: rgb(248, 192, 7);
+}
+.button button {
+border-radius: 30px;
+    background-color: transparent;
+    border: 1px solid black;
+    cursor: pointer;
+    color: rgb(19, 18, 18); 
+    font-size: 20px;
+    padding: 10px 20px;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+.button i{
+    color: black;
+}
+.button button:hover{
+    color: rgb(253, 146, 5);
+}
+
+.Language {
+    cursor: pointer;
+    color: rgb(3, 3, 3);
+}
+
+
+.Language nav {
+    
+    position: absolute;
+    background-color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.Language nav li {
+    margin: 5px 0;
+}
+
+.Language nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.Language i {
+    margin-left: 5px;
+}
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}
+.Language .sublanguage{
+    position: absolute;
+    left:0;
+    background: #101d23;
+    display:none;
+    transition: all .3s ease-in-out;
+}
+.Login a {
+    color: rgb(10, 10, 10); 
+    margin-left: 20px; 
+}
+
+
+header, main, footer {
+    padding: 20px;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+}
+
+main {
+    display: flex;
+}
+
+.left-content {
+    width: 190px; 
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.left-content h2{
+    font-size: 18px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+.left-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    justify-content: space-between;
+}
+
+
+
+
+.left-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left-content ul li {
+    margin-bottom: 10px;
+}
+
+.left-content ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.left-content ul li a:hover {
+    text-decoration: underline;
+    color: rgb(70, 73, 241);
+}
+
+
+.left-content ul li a i {
+    margin-right: 5px;
+}
+
+
+
+
+
+.New a {
+    border: 2px solid green;
+    color: rgb(247, 158, 5);
+    text-decoration: none;
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    background-color: #f6fbf3; 
+    display: inline-block;
+}
+
+.New a:hover {
+    background-color: #145d02; 
+}
+
+
+
+.right-content {
+    flex: 1;
+    padding: 20px;
+    
+}
+
+.right-content h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+   
+}
+
+.songs {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+}
+
+.songs-list {
+    background-color: #f2f2f2;
+    padding: 0px;
+    border-radius: 0px;
+    text-align: center;
+}
+
+.songs-list img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.songs-list h4 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.songs-list span {
+    font-size: 14px;
+    color: #666;
+}
+.Top h2{
+    font-size: 24px;
+    margin-top: 5rem;
+    color: #333;
+}
+.Hindi{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px; 
+}
+
+ .Hindi-songs{
+    background-color: #f2f2f2;
+    padding: 0px;
+    border-radius: 0px;
+    text-align: center; 
+ }
+.Hindi-songs img{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px; 
+}
+
+
+.Footer {
+    background-color: #efeded;
+    color: #0b0b0b;
+    padding: 20px 0;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-col {
+    flex: 1;
+}
+
+.top-artists, .top-actors {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.top-artists-list, .top-actors-list {
+    width: calc(80% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.top-artists-list span, .top-actors-list span {
+    display: block;
+    color: #0a0a0a;
+    margin-top: 5px;
+}
+
+.top-artists-list span, .top-actors-list span:hover{
+    color: #145d02;
+}
+.devotional {
+    margin-bottom: 20px;
+}
+
+.devotional h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 18px;
+}
+
+.devoi-songs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.devoi-songs-list {
+    width: calc(80% - 20px);
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+
+.Language {
+    margin-bottom: 20px;
+}
+
+.Language h2 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Language-songs {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Language-songs-list {
+    width: calc(80% - 20px);
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .menu ul li {
+        margin-bottom: 10px;
+    }
+
+    .left-content, .right-content {
+        flex: 100%;
+    }
+
+    .songs-list {
+        width: 100%;
+    }
+
+    .top-artists-list, .top-actors-list {
+        width: 100%;
+    }
+}
